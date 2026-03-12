@@ -71,7 +71,7 @@ function ManhvaRecInfo(){
                 <p className="s">p</p>
                 <h3 className="name-go">Читать</h3>
             </Link>
-            <a className="run" href="">
+            <a className="run" href="/download">
                 <p className="s">p</p>
                 <img className="download" src={Download} alt=""/>
             </a>
