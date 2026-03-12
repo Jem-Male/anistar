@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Post_card from "./PostCard";
+import PostСard from "./PostCard";
 import axios from "axios";
 import LoadingPost from "./loadingPost";
 import Error from "./error";
@@ -35,7 +35,7 @@ function PostList(){
             {isLoading ? (<LoadingPost/>) :(
                 <>
                     {posts.map((post)=>(
-                        <Post_card key={post.id} img={post.img} post={post}/>
+                        <PostСard key={post.id} img={post.img} post={post}/>
                     ))}
                 </>
             )}
