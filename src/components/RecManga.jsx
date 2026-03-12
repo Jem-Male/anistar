@@ -2,7 +2,6 @@ import BigContainer from "./BigContainer";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Error from "./error";
-import LoadingPost from "./loadingPost";
 
 function RecManga() {
 
