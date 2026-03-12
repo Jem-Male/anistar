@@ -1,12 +1,7 @@
 import "./assets/css/css.css";
-import PostList from "./components/PostList";
 import Header from "./components/Header";
 import ManhvaInfo from "./components/manhvainfo";
-import CommentInfo from "./components/CommentInfo";
-import BigContainer from "./components/BigContainer";
 import HomePage from "./components/page/HomePage";
-import RecManga from "./components/RecManga";
-import CategoryGo from "./components/page/categorygo";
 import CategoryGoInfo from "./components/categorygoinfo";
 import ReadManhva from "./components/page/read";
 import { Routes, Route } from 'react-router-dom';
