@@ -6,7 +6,7 @@ import Error from "./error";
 function RecManga() {
 
     const[recs, setPost]= useState([]);
-    const[isLoading, setIsLoading]=useState(false);
+    const[setIsLoading]=useState(false);
     const[isError, setIserror]=useState(false);
 
     useEffect(() =>{
