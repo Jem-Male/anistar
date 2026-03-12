@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Post_card from "./post_card";
+import Post_card from "./PostCard";
 import axios from "axios";
 import LoadingPost from "./loadingPost";
 import Error from "./error";

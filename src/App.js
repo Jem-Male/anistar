@@ -1,5 +1,5 @@
 import "./assets/css/css.css";
-import PostList from "./components/post_list";
+import PostList from "./components/PostList";
 import Header from "./components/Header";
 import ManhvaInfo from "./components/manhvainfo";
 import CommentInfo from "./components/CommentInfo";

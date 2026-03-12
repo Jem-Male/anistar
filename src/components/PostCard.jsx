@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Post_card({ post }) {
+function PostCard({ post }) {
     return (
         <Link to={`/Info/${post.id}`} class="category-item">
             <img src={post.img} alt="img" class="category-item__imag" />
@@ -11,4 +11,4 @@ function Post_card({ post }) {
     );
 }
 
-export default Post_card;
+export default PostCard;
